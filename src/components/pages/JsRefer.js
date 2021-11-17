@@ -32,12 +32,12 @@ class Reference extends React.Component {
     getRefer = async () => {
         const {
             data: {
-                data: {htmlRefer},
+                data: {JsRefer},
             },
-        } = await axios.get("https://raw.githubusercontent.com/lsrljm8011/react999/master/src/assets/json/refer.json");
-        this.setState({refers: htmlRefer, isLoading: false})
+        } = await axios.get("https://raw.githubusercontent.com/lsrljm8011/react999/master/src/assets/json/javascript.json");
+        this.setState({refers: JsRefer, isLoading: false})
 
-        console.log(htmlRefer);
+        console.log(JsRefer);
     }
 
     componentDidMount(){
@@ -59,7 +59,7 @@ class Reference extends React.Component {
                         <Contents>
                             <section id="referCont">
                                 <div className="container">
-                                    <WrapTitle text={['Reference', 'Book']} />
+                                    <WrapTitle text={['JsReference', 'Book']} />
                                     <div className="refer__cont">
                                         <div className="table">
                                             <h3 className={this.state.activeTab === 0 ? "active" : ""} onClick={() => this.clickHandler(0)}>Html</h3>

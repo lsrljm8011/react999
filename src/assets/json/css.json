@@ -3,7 +3,7 @@
     "status_message": "Query was successful",
     "data": {
       "type": "css",
-      "cssRefer": [
+      "CssRefer": [
         {
           "id": 1,
           "title": "align-content",

@@ -1,7 +1,7 @@
 {
     "data": {
       "type": "javascript",
-      "javascriptRefer": [
+      "JsRefer": [
         {
           "id": 1,
           "title": ".toJSON()",
