@@ -3,12 +3,12 @@ import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
 import Contents from '../layouts/Contents';
 
-function script(){
+function Script(){
     return (
         <div>
             <Header />
             <Contents>
-            script
+            Script
             </Contents>
             <Footer />
         </div>
@@ -16,4 +16,4 @@ function script(){
         )
 }
 
-export default script;
+export default Script;

@@ -1,6 +1,5 @@
 import React from "react";
-import YoutubeItem from "../info/YoutubeItem";
-
+import YoutubeItem from "./YoutubeItem";
 const YoutubeList = (props) => {
     return (
         <>
@@ -10,5 +9,4 @@ const YoutubeList = (props) => {
         </>
     )
 }
-
-export default YoutubeList
+export default YoutubeList;

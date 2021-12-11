@@ -1,5 +1,4 @@
 import React from "react";
-
 function Loading(){
     return(
         <div id="loading" className="loading-active">
@@ -15,5 +14,4 @@ function Loading(){
         </div>
     )
 }
-
 export default Loading

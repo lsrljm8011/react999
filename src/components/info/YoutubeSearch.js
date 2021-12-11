@@ -1,26 +1,25 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 
-const YoutubeSearch = ({onSearch}) => {
+const YoutubeSearch = ({ onSearch }) => {
     const inputRef = useRef();
 
     const handleSearch = () => {
         const value = inputRef.current.value;
-        console.log(value)
+        console.log(value);
         onSearch(value);
     }
 
     const onClick = (e) => {
         e.preventDefault();
-        // console.log("onClick")
+        // console.log("onClick");
         handleSearch();
     }
 
     const onKeyPress = (event) => {
-        if (event.key === "Enter"){
+        if (event.ky === "Enter"){
             handleSearch();
         }
     }
-
     return (
         <div className="search">
             <label htmlFor="youtubeInput" className="sr-only">검색하기</label>

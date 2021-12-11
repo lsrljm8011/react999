@@ -8,20 +8,24 @@ import Youtube from './components/pages/Youtube';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import ReferDetail from './components/pages/ReferDetail';
+import ReferDetailCss from './components/pages/ReferDetailCss';
+import ReferDetailJs from './components/pages/ReferDetailJs';
 
 function App(){
-    return (
-        <Router>
-            <Route path="/" exact component={Main} />
-            <Route path="/about" component={About} />
-            <Route path="/reference" component={Reference} />
-            <Route path="/refer-detail" component={ReferDetail} />
-            <Route path="/script" component={Script} />
-            <Route path="/youtube" component={Youtube} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/portfolio" component={Portfolio} />
-        </Router>
-    )
+    return (
+        <Router>
+            <Route path="/" exact component={Main} />
+            <Route path="/about" component={About} />
+            <Route path="/reference" component={Reference} />
+            <Route path="/refer-detail" component={ReferDetail} />
+            <Route path="/refer-detail-css" component={ReferDetailCss} />
+            <Route path="/refer-detail-js" component={ReferDetailJs} />
+            <Route path="/script" component={Script} />
+            <Route path="/youtube" component={Youtube} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/portfolio" component={Portfolio} />
+        </Router>
+    )
 }
 
 export default App;

@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header(){
-    return(
+    return (
         <header id="header">
             <div className="header__port"><Link to="/portfolio">Portfolio</Link></div>
-            <div className="header__logo"><Link to="/">webstroyboy</Link></div>
+            <div className="header__logo"><Link to="/">SERIN</Link></div>
             <nav className="header__menu">
                 <ul>
                     <li><Link to="/about">About</Link></li>

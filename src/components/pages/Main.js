@@ -7,10 +7,8 @@ function Info({text}){
     return <div>{text}</div>
 }
 const textInfo = [
-    {text : "We Provide"},
-    {text : "visual coding"},
-    {text : "solution"},
-    {text : "for you webs"},
+    {text : "frontend React.js"},
+    {text : "Developer"},
 ]
 
 function Main() {
@@ -20,7 +18,7 @@ function Main() {
             <Contents>
                 <section id="mainCont">
                     <h2 className="sr-only">메인 컨텐츠 영역입니다.</h2>
-                    <div className="main__cont">
+                    <div className="main__cont m">
                         {textInfo.map((info) => (
                             <Info text={info.text} key={info.text} />
                         ))}

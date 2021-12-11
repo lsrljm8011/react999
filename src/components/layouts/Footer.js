@@ -2,26 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer(){
-    return(
+    return (
         <footer id="footer">
                 <div>
                     <h4>email</h4>
-                    <p><Link to="mailto:webstoryboy@naver.com">webstoryboy@naver.com</Link></p>
+                    <p><Link to="mailto:lsrljm98@gmail.com">lsrljm98@gmail.com</Link></p>
                 </div>
                 <div>
                     <h4>Kakao</h4>
-                    <p><Link to="/">@webstupis</Link></p>
+                    <p><Link to="/">@serin8011</Link></p>
                 </div>
                 <div>
                     <h4>social</h4>
                     <ul>
-                        <li><a href="/">Youtube</a></li>
-                        <li><a href="/">Instargram</a></li>
-                        <li><a href="/">Github</a></li>
-                        <li><a href="/">Cafe</a></li>
-                        <li><a href="/">Referecne</a></li>
-                        <li><a href="/">Tutorials</a></li>
-                        <li><a href="/">CSS</a></li>
+                        <li><a href="https://www.instagram.com/rnnsernn/">Instargram</a></li>
+                        <li><a href="https://lsrljm8011.github.io/dothome21/">Github</a></li>
+                        <li><a href="http://lsrljm8011.dothome.co.kr/portfolio/index.html">Portfolio</a></li>
                     </ul>
                 </div>
             </footer>

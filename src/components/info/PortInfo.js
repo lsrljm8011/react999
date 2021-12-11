@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 function PortInfo({title, category, link, image}){
     return (
-        <div className="port">
+        <div class="port">
             <a href={link}>
-                <div className="pImg">
+                <div class="pImg">
                     <img src={image} alt={title} />
                 </div>
-                <div className="pText">
+                <div class="pText">
                     <h3>{title}</h3>
                     <p>{category}</p>
                 </div>
