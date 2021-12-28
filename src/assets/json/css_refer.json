@@ -1,8 +1,6 @@
 {
-    "status": "ok",
-    "status_message": "Query was successful",
     "data": {
-      "type": "css",
+      "type": "html",
       "cssRefer": [
         {
           "id": 1,
@@ -343,62 +341,60 @@
           ]
         },
         {
-            "id": 27,
-            "link": "https://webzz.tistory.com/392",
-            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-            "title": "border-collapse",
-            "desc1": "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다.",
-            "default1": "border-collapse : separate",
-            "apply": "table",
-            "version": "CSS11",
-            "use": "★☆☆",
-            "definition": [
-              "border-collapse 속성은 테이블의 분리 여부를 설정합니다."
-            ]
-          },
+          "id": 27,
+          "link": "https://webzz.tistory.com/392",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-collapse",
+          "desc1": "border-collapse 속성은 테이블의 테두리 분리 여부를 설정합니다.",
+          "default1": "border-collapse : separate",
+          "apply": "table",
+          "version": "CSS11",
+          "use": "★☆☆",
+          "definition": [
+            "border-collapse 속성은 테이블의 분리 여부를 설정합니다."
+          ]
+        },
         {
-            "id": 28,
-            "link": "https://webzz.tistory.com/393",
-            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-            "title": "border-color",
-            "desc1": "border-color 속성은 테두리 색 속성을 설정합니다.",
-            "default1": "border-color : currentcolor",
-            "apply": "border",
-            "version": "CSS1",
-            "use": "★★☆",
-            "definition": [
-              "border-color는 테두리 색 속성을 설정합니다."
-            ]
-          },
-
-
+          "id": 28,
+          "link": "https://webzz.tistory.com/393",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-color",
+          "desc1": "border-color 속성은 테두리 색 속성을 설정합니다.",
+          "default1": "border-color : currentcolor",
+          "apply": "border",
+          "version": "CSS1",
+          "use": "★★☆",
+          "definition": [
+            "border-color는 테두리 색 속성을 설정합니다."
+          ]
+        },
         {
-            "id": 29,
-            "link": "https://webzz.tistory.com/394",
-            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-            "title": "border-image",
-            "desc1": "border-image 속성은 테두리 이미지 속성을 설정합니다.",
-            "default1": "border-image-source : none border-image-slice : 100% border-image-width : 1 border-image-outset : 0s border-image-repeat : stretch",
-            "apply": "border",
-            "version": "CSS3",
-            "use": "★★★",
-            "definition": [
-              "border-image 테두리 이미지 속성을 설정합니다."
-            ]
-          },
-          {
-            "id": 30,
-            "link": "https://webzz.tistory.com/395",
-            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-            "title": "border-image-outset",
-            "desc1": "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다.",
-            "default1": "border-image-outset : 0s",
-            "apply": "border",
-            "version": "CSS3",
-            "use": "★★★",
-            "definition": [
-              "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다."
-            ]
+          "id": 29,
+          "link": "https://webzz.tistory.com/394",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-image",
+          "desc1": "border-image 속성은 테두리 이미지 속성을 설정합니다.",
+          "default1": "border-image-source : none border-image-slice : 100% border-image-width : 1 border-image-outset : 0s border-image-repeat : stretch",
+          "apply": "border",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "border-image 테두리 이미지 속성을 설정합니다."
+          ]
+        },
+        {
+          "id": 30,
+          "link": "https://webzz.tistory.com/395",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "border-image-outset",
+          "desc1": "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다.",
+          "default1": "border-image-outset : 0s",
+          "apply": "border",
+          "version": "CSS3",
+          "use": "★★★",
+          "definition": [
+            "border-image-outset 속성은 테두리 이미지 간격 속성을 설정합니다."
+          ]
         }
       ]
     }
